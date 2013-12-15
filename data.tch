@@ -1,0 +1,33 @@
+#Fichier de configuration de TechbyDiff.java
+#Résolution numérique d'équation différentielle de la forme : (df/dx)^n=a+bx+cx^2+...
+#yves.mercadier@gmail.com
+#22/11/2013
+
+#pas d'incrémentation des abscisses.
+pas= 0.1
+
+#Nombre de points calculés.
+nombre_de_point= 50
+
+#Abcsisse ou le calcul commence.
+abcsisse_initiale= 0
+
+#L'expression de la solution se fait par l'utilisation des régles de calcul de javascript.
+#elle ne doit pas contenir d'espace.
+solution= Math.pow(x,4)/12-Math.pow(x,5)/20+5*Math.pow(x,2)/2+10*x-1
+#solution= Math.pow(x,3)/6
+
+#Les conditions aux limites seront données pour l'abscisse initiale.
+condition_aux_limites= 5 10 -1
+#condition_aux_limites= 0 0
+
+#Ordre de l'équation différentielle.
+ordre_premier_membre= 3
+#ordre_premier_membre= 2
+
+#Le second membre sera de forme polynomiale.
+coefficient_second_membre= 0 2 -3
+#coefficient_second_membre= 0 1
+
+
+

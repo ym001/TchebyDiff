@@ -1,7 +1,0 @@
-pas= 0.5
-nombre_de_point= 50
-abcsisse_initiale= 2
-solution= Math.pow(x,3)/6+Math.pow(x,4)/12
-condition_aux_limites= 1 2 0
-ordre_premier_membre= 2 
-coefficient_second_membre= 1 1
